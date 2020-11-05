@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="718"
+     viewBox="0 0 1920 718">
+    <defs>
+        <polygon id="home-bg-a" points="0 0 1920 0 1920 1145 0 1145"/>
+        <linearGradient id="home-bg-b" x1="81.508%" x2="22.655%" y1="42.988%" y2="57.012%">
+            <stop offset="0%" stop-color="#6583fe"/>
+            <stop offset="100%" stop-color="#5270f8"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="home-bg-c" fill="#fff">
+            <use xlink:href="#home-bg-a"/>
+        </mask>
+        <g fill="url(#home-bg-b)" fill-rule="nonzero" mask="url(#home-bg-c)">
+            <path d="M0,0 L1920,0 L1920,681.543601 C1920,681.543601 1453.2,719 973.2,719 C493.2,719 0,681.462174 0,681.462174 L0,0 Z"
+                  transform="translate(0 -1)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,71 @@
+@import url(fontiran.css);
+
+:root {
+    --color-primary: #6583fe;
+    --color-dark: #5270f8;
+    --color-accent: #01eca5;
+}
+
+body {
+    direction: rtl;
+}
+
+.text-white {
+    color: white;
+}
+
+#skill .uk-card p {
+    height: 90px;
+}
+
+#description .uk-grid p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+#pay, #feedback {
+    background-color: #f6f8fa;
+}
+
+#event .wall p {
+    font-size: 10px;
+    line-height: 20px;
+    margin-top: 0;
+}
+
+#event .uk-grid h5 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#event .wall {
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: -55px;
+}
+
+.border-circle {
+    border-radius: 50%;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+}
+
+/*region override*/
+.uk-card, .uk-label {
+    border-radius: 6px;
+}
+
+.uk-input, .uk-button {
+    border-radius: 4px;
+}
+
+.uk-column-divider {
+    column-gap: 0;
+}
+
+.uk-button-primary, .uk-label-success {
+    background-color: var(--color-accent);
+}
+
+/*endregion*/
